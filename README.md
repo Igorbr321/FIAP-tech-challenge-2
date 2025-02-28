@@ -6,7 +6,7 @@ Este repositório contém o projeto desenvolvido para o Tech Challenge da fase a
 
 ## Problema Proposto
 
-Imagine que você foi escalado para um time de investimentos e precisará realizar um modelo preditivo com dados da IBOVESPA para criar uma série temporal e prever o fechamento diário do índice. Os dados utilizados foram extraídos do site Investing no período diário.
+Imagine que você foi escalado para um time de investimentos e precisará realizar um modelo preditivo com dados da IBOVESPA para criar uma série temporal e prever o fechamento diário do índice. Os dados utilizados foram extraídos do site da IBOVESPA por meio de login e download em formato CSV no período diário.
 
 ## Objetivos
 
@@ -21,27 +21,31 @@ Imagine que você foi escalado para um time de investimentos e precisará realiz
 O projeto está dividido nas seguintes etapas:
 
 ### 1. Coleta de Dados
-- Web scraping para extração automática dos dados do site Investing.
+
+- Download de dados no site da IBOVESPA por meio de login e exportação para arquivos CSV.
 - Salvamento dos dados em arquivos CSV para posterior tratamento.
 
 ### 2. Tratamento de Dados
+
 - Limpeza e organização dos dados.
 - Conversão de tipos de dados.
 - Análise de dados ausentes e outliers.
 
 ### 3. Análise Exploratória
+
 - Visualização gráfica dos dados históricos.
 - Identificação de padrões sazonais e tendências.
 
 ### 4. Modelagem Preditiva
+
 - Seleção do modelo de série temporal (ARIMA, Prophet ou outro modelo adequado).
 - Justificação da técnica escolhida.
 - Treinamento e validação do modelo.
 - Avaliação da acuracidade.
 
 ### 5. Relatório Final
+
 - Apresentação dos resultados.
 - Gráficos e insights extraídos da análise.
 - Conclusão com sugestões para o time de investimentos.
-
 
