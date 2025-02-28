@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este repositório contém o projeto desenvolvido para o Tech Challenge da fase atual, com foco na criação de um modelo preditivo para prever diariamente o fechamento do índice IBOVESPA. Este projeto é uma atividade obrigatória e compõe 90% da nota final da fase.
+Este repositório contém o projeto desenvolvido para a **Fase 02 do Tech Challenge**, com foco na criação de um modelo preditivo para prever diariamente o fechamento do índice IBOVESPA. Este projeto é uma atividade obrigatória e compõe 90% da nota final da fase.
 
 ## Problema Proposto
 
