@@ -13,18 +13,21 @@ def table_info(df):
     - Exemplo de valores por coluna
     """
     
-    print("🔹 Dimensões do DataFrame:", df.shape)
-    print("\n🔹 Tipos de dados:")
+    print('🔹 Dimensões do DataFrame:', df.shape)
+    print('\n🔹 Tipos de dados:')
     print(df.dtypes)
     
-    print("\n🔹 Valores nulos por coluna:")
+    print('\n🔹 Valores nulos por coluna:')
     print(df.isnull().sum())
 
-    print("\n🔹 Valores únicos por coluna:")
+    print('\n🔹 Valores únicos por coluna:')
     print(df.nunique())
 
-    print("\n🔹 Exemplos de valores por coluna:")
+    print('\n🔹 Exemplos de valores por coluna:')
     print(df.head(3).T)  # Transposto para facilitar visualização por coluna
+
+    print('\n🔹 Descrição dos dados:')
+    print(df.describe())
 
 '---------------------------------------------------------------------------------------------------------------'
 
